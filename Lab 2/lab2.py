@@ -119,7 +119,10 @@ class student(person):
     def display1(self):
         super().display() #access parent method
         self.display()
-
+#--------------------------
+class person:
+    def __init__(self):
+        self._x=10 #_ -> protected. accessible within itself and child class
 s=student()
 s.display1()
 #---------------------------
