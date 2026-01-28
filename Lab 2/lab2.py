@@ -1,3 +1,14 @@
+variable length argument:
+def varlength(*a):
+    for x in a:
+        print(x, "->", type(x))
+
+varlength(2.4)
+varlength('Yogs')
+#output:
+#2.4 -> <class 'float'>
+#Yogs -> <class 'str'>
+
 #architecture of class
 class person: 
     pass #future implementation
