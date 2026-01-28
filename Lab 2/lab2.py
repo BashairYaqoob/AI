@@ -144,3 +144,12 @@ print(math.sin(90))
 print(math.cos(0))
 print(math.pi)
 print(math.pow(2,3))
+#---------------------
+import random as r
+print(r.random()) #range=0-1
+print(r.randint(1,6))
+print(r.seed(0)) #current time & date based value
+print(r.randrange(1,100,2)) #2 nums (without gap
+print(r.randrange(1,100,2))
+list1=[1,3,7,9]
+print(r.choice(list1))
