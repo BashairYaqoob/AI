@@ -126,3 +126,14 @@ class person:
 s=student()
 s.display1()
 #---------------------------
+class person:
+    def __init__(self):
+        self._x=10
+    def display(self):
+        print(f"parent {self.x}")
+class student(person):
+    def display1(self):
+        print(f"protected {self._x}") #accesing protected attribute
+
+s=student()
+s.display1()
