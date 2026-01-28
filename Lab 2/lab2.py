@@ -9,6 +9,15 @@ varlength('Yogs')
 #2.4 -> <class 'float'>
 #Yogs -> <class 'str'>
 
+class abc:
+    def sumall(self, *args):
+        return sum(args)
+    
+a=abc()
+print(a.sumall(1,2))
+print(a.sumall(1,2,3))
+print(a.sumall(4.6,2.2))
+
 #architecture of class
 class person: 
     pass #future implementation
