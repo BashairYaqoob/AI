@@ -137,3 +137,10 @@ class student(person):
 
 s=student()
 s.display1()
+#---------------------------
+import math
+print(math.sqrt(16))
+print(math.sin(90))
+print(math.cos(0))
+print(math.pi)
+print(math.pow(2,3))
