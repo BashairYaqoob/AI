@@ -254,9 +254,9 @@ class LearningBasedAgent:
     def __init__(self, actions):
         self.Q = {}
         self.actions = actions
-        self.alpha = 0.1  # Learning rate
-        self.gamma = 0.9  # Discount factor
-        self.epsilon = 0.1  # Exploration rate
+        self.alpha = 0.1  # Learning rate (intelligence)
+        self.gamma = 0.9  # Discount factor (accuracy/ authenticity)
+        self.epsilon = 0.1  # Exploration rate (probability)
 
     def get_Q_value(self, state, action):
         return self.Q.get((state, action), 0.0)
